@@ -77,12 +77,6 @@ const UserInfo: NextPage = () => {
       </Title>
 
       <Paper withBorder p={30} mt={30} radius="md">
-        {/* {errorForm && (
-          <Text align="center" color="red">
-            Email or password is incorrect.
-          </Text>
-        )} */}
-
         <form onSubmit={form.onSubmit((values) => handleSubmit(values))}>
           <TextInput
             label="User Name"
