@@ -116,7 +116,7 @@ const Signup: NextPage = () => {
       >
         <form onSubmit={form.onSubmit((values) => handleSubmit(values))}>
           <TextInput
-            autocomplete="off"
+            autoComplete="off"
             label="Name"
             placeholder="Your Name"
             required
