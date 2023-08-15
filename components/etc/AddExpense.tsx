@@ -128,7 +128,7 @@ function AddCarButton() {
                   }
                   data={carInfo.map((car) => {
                     return {
-                      value: JSON.stringify(car),
+                      value: car,
                       label: `${car.nickname} ${car.manufacturer} ${car.model} ${car.year}`,
                     };
                   })}
